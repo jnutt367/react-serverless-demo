@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div `
+    background-color: silver;
+    opacity: 0.9;
+    height: 75vh;
     padding: 20px;
     margin: 0 auto;
     margin-top: 20px;

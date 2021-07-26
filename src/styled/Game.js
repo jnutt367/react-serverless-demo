@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const StyledGame = styled.div `
     height: 75vh;
     background-color: black;
+    opacity: 0.8;
+    box-shadow: 3px 3px #e16356;
     border-radius: 15px;
     max-height: 500px;
     display: grid;

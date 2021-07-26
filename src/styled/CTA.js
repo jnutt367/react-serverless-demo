@@ -8,6 +8,8 @@ export default styled(Link)
     text-decoration: none;
 
     &:hover {
-        text-decoration: underline;
+        text-decoration: underline overline double blue;
+        transition: 400ms;
+        padding: 10px;
     }
     `;
