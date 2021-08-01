@@ -13,6 +13,9 @@ export const StyledTitle = styled.h1 `
 
 export const Strong = styled.strong `
     font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: white;
 `
