@@ -5,7 +5,7 @@ import { StyledTitle } from '../styled/Random';
 export default function Home() {
     return (
         <div>
-            <StyledTitle>GET YOUR TYPE ON!!</StyledTitle>
+            <StyledTitle>Get Your TYPE on!</StyledTitle>
             <CTA to="/game">
                 Click or Type '<Accent>s</Accent>' to start playing
             </CTA>
