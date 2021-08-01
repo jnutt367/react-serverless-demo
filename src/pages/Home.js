@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accent } from '../styled/Random';
+import { Accent, Strong } from '../styled/Random';
 import { CTA } from '../styled/CTA';
 import { StyledTitle } from '../styled/Random';
 export default function Home() {
@@ -9,9 +9,9 @@ export default function Home() {
             <CTA to="/game">
                 Click or Type '<Accent>s</Accent>' to start playing
             </CTA>
-            <Accent>
+            <Strong>
                 Type the letter on the screen, hurry! You only have 5 seconds!
-            </Accent>
+            </Strong>
         </div>
     );
 }
