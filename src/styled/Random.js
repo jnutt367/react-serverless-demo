@@ -12,10 +12,12 @@ export const StyledTitle = styled.h1 `
 `;
 
 export const Strong = styled.strong `
-    font-weight: bold;
+    font-weight: 500;
     display: grid;
+    padding-top: 30px;
+    font-size: 2rem;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: black;
 `
