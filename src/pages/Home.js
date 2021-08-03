@@ -10,7 +10,7 @@ export default function Home() {
                 Click or Type '<Accent>s</Accent>' to start playing
             </CTA>
             <Strong>
-                Type the letter on the screen, hurry! You only have 15 seconds!
+                Type the letter on the screen, hurry! You only have 20 seconds!
             </Strong>
         </div>
     );
