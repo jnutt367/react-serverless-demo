@@ -1,9 +1,10 @@
 import React from 'react';
+import { StyledTitle } from '../styled/Random';
 
 export default function HighScores() {
         return (
                 <div>
-                    <h1>High Scores</h1>
+                    <StyledTitle>High Scores</StyledTitle>
                 </div>
         );
 }

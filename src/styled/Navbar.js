@@ -25,13 +25,18 @@ export const StyledNavItems = styled.ul `
     display: grid;
     grid-auto-flow: column;
     grid-gap: 22px;
+    text-decoration: none;
 `;
 
 
 export const StyledLink = styled(Link)
 `
     text-decoration: none;
-    font-size: 1.2rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+    font-size: 1.5rem;
+
     transition: color 300ms;
     &:hover {
         color: #e16365;

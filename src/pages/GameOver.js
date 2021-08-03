@@ -1,6 +1,7 @@
 import React from 'react';
 import { useScore } from '../contexts/ScoreContext';
 import { StyledLink } from '../styled/Navbar';
+import { StyledTitle } from '../styled/Random'
 export default function GameOver({ history }) {
     const [score] = useScore();
 
@@ -9,7 +10,7 @@ export default function GameOver({ history }) {
     }
     return (
         <div>
-            <h1>Game Over</h1>
+            <StyledTitle>Game Over</StyledTitle>
             <p>{score}</p>
             <StyledLink to="/">Go Home</StyledLink>
             <StyledLink to="/game">Play Again</StyledLink>
