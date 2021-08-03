@@ -4,9 +4,9 @@ export const StyledNavbar = styled.nav `
     display: grid;
     grid-template-columns: 1fr auto;
     background-color: aliceblue;
-    border: 2px solid blue;
+    border: 4px inset brown;
     opacity: 0.8;
-    box-shadow: 3px 3px blue;
+    box-shadow: 3px 3px 10px black;
     border-radius: 15px;
     padding: 20px;
 `;
