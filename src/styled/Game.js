@@ -35,3 +35,9 @@ export const StyledCharacter = styled.p `
     position: relative;
     top: -100px;
 `;
+export const StyledInstructions = styled.p `
+font-size: 15rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+`;
